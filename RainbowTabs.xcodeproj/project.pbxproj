@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		209DAE442069E787003D3D7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209DAE432069E787003D3D7E /* AppDelegate.swift */; };
+		209DAE462069E787003D3D7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209DAE452069E787003D3D7E /* ViewController.swift */; };
+		209DAE492069E787003D3D7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209DAE472069E787003D3D7E /* Main.storyboard */; };
+		209DAE4B2069E787003D3D7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209DAE4A2069E787003D3D7E /* Assets.xcassets */; };
+		209DAE4E2069E787003D3D7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209DAE4C2069E787003D3D7E /* LaunchScreen.storyboard */; };
+		209DAE592069E787003D3D7E /* RainbowTabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209DAE582069E787003D3D7E /* RainbowTabsTests.swift */; };
+		209DAE642069E787003D3D7E /* RainbowTabsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209DAE632069E787003D3D7E /* RainbowTabsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		209DAE552069E787003D3D7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 209DAE382069E787003D3D7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 209DAE3F2069E787003D3D7E;
+			remoteInfo = RainbowTabs;
+		};
+		209DAE602069E787003D3D7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 209DAE382069E787003D3D7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 209DAE3F2069E787003D3D7E;
+			remoteInfo = RainbowTabs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		209DAE402069E787003D3D7E /* RainbowTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		209DAE432069E787003D3D7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		209DAE452069E787003D3D7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		209DAE482069E787003D3D7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		209DAE4A2069E787003D3D7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		209DAE4D2069E787003D3D7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		209DAE4F2069E787003D3D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		209DAE542069E787003D3D7E /* RainbowTabsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainbowTabsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		209DAE582069E787003D3D7E /* RainbowTabsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowTabsTests.swift; sourceTree = "<group>"; };
+		209DAE5A2069E787003D3D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		209DAE5F2069E787003D3D7E /* RainbowTabsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainbowTabsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		209DAE632069E787003D3D7E /* RainbowTabsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowTabsUITests.swift; sourceTree = "<group>"; };
+		209DAE652069E787003D3D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		209DAE3D2069E787003D3D7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209DAE512069E787003D3D7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209DAE5C2069E787003D3D7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		209DAE372069E787003D3D7E = {
+			isa = PBXGroup;
+			children = (
+				209DAE422069E787003D3D7E /* RainbowTabs */,
+				209DAE572069E787003D3D7E /* RainbowTabsTests */,
+				209DAE622069E787003D3D7E /* RainbowTabsUITests */,
+				209DAE412069E787003D3D7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		209DAE412069E787003D3D7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				209DAE402069E787003D3D7E /* RainbowTabs.app */,
+				209DAE542069E787003D3D7E /* RainbowTabsTests.xctest */,
+				209DAE5F2069E787003D3D7E /* RainbowTabsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		209DAE422069E787003D3D7E /* RainbowTabs */ = {
+			isa = PBXGroup;
+			children = (
+				209DAE432069E787003D3D7E /* AppDelegate.swift */,
+				209DAE452069E787003D3D7E /* ViewController.swift */,
+				209DAE472069E787003D3D7E /* Main.storyboard */,
+				209DAE4A2069E787003D3D7E /* Assets.xcassets */,
+				209DAE4C2069E787003D3D7E /* LaunchScreen.storyboard */,
+				209DAE4F2069E787003D3D7E /* Info.plist */,
+			);
+			path = RainbowTabs;
+			sourceTree = "<group>";
+		};
+		209DAE572069E787003D3D7E /* RainbowTabsTests */ = {
+			isa = PBXGroup;
+			children = (
+				209DAE582069E787003D3D7E /* RainbowTabsTests.swift */,
+				209DAE5A2069E787003D3D7E /* Info.plist */,
+			);
+			path = RainbowTabsTests;
+			sourceTree = "<group>";
+		};
+		209DAE622069E787003D3D7E /* RainbowTabsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				209DAE632069E787003D3D7E /* RainbowTabsUITests.swift */,
+				209DAE652069E787003D3D7E /* Info.plist */,
+			);
+			path = RainbowTabsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		209DAE3F2069E787003D3D7E /* RainbowTabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209DAE682069E787003D3D7E /* Build configuration list for PBXNativeTarget "RainbowTabs" */;
+			buildPhases = (
+				209DAE3C2069E787003D3D7E /* Sources */,
+				209DAE3D2069E787003D3D7E /* Frameworks */,
+				209DAE3E2069E787003D3D7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RainbowTabs;
+			productName = RainbowTabs;
+			productReference = 209DAE402069E787003D3D7E /* RainbowTabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		209DAE532069E787003D3D7E /* RainbowTabsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209DAE6B2069E787003D3D7E /* Build configuration list for PBXNativeTarget "RainbowTabsTests" */;
+			buildPhases = (
+				209DAE502069E787003D3D7E /* Sources */,
+				209DAE512069E787003D3D7E /* Frameworks */,
+				209DAE522069E787003D3D7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				209DAE562069E787003D3D7E /* PBXTargetDependency */,
+			);
+			name = RainbowTabsTests;
+			productName = RainbowTabsTests;
+			productReference = 209DAE542069E787003D3D7E /* RainbowTabsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		209DAE5E2069E787003D3D7E /* RainbowTabsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209DAE6E2069E787003D3D7E /* Build configuration list for PBXNativeTarget "RainbowTabsUITests" */;
+			buildPhases = (
+				209DAE5B2069E787003D3D7E /* Sources */,
+				209DAE5C2069E787003D3D7E /* Frameworks */,
+				209DAE5D2069E787003D3D7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				209DAE612069E787003D3D7E /* PBXTargetDependency */,
+			);
+			name = RainbowTabsUITests;
+			productName = RainbowTabsUITests;
+			productReference = 209DAE5F2069E787003D3D7E /* RainbowTabsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		209DAE382069E787003D3D7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Mikk Noorkõiv";
+				TargetAttributes = {
+					209DAE3F2069E787003D3D7E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					209DAE532069E787003D3D7E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 209DAE3F2069E787003D3D7E;
+					};
+					209DAE5E2069E787003D3D7E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 209DAE3F2069E787003D3D7E;
+					};
+				};
+			};
+			buildConfigurationList = 209DAE3B2069E787003D3D7E /* Build configuration list for PBXProject "RainbowTabs" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 209DAE372069E787003D3D7E;
+			productRefGroup = 209DAE412069E787003D3D7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				209DAE3F2069E787003D3D7E /* RainbowTabs */,
+				209DAE532069E787003D3D7E /* RainbowTabsTests */,
+				209DAE5E2069E787003D3D7E /* RainbowTabsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		209DAE3E2069E787003D3D7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209DAE4E2069E787003D3D7E /* LaunchScreen.storyboard in Resources */,
+				209DAE4B2069E787003D3D7E /* Assets.xcassets in Resources */,
+				209DAE492069E787003D3D7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209DAE522069E787003D3D7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209DAE5D2069E787003D3D7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		209DAE3C2069E787003D3D7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209DAE462069E787003D3D7E /* ViewController.swift in Sources */,
+				209DAE442069E787003D3D7E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209DAE502069E787003D3D7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209DAE592069E787003D3D7E /* RainbowTabsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209DAE5B2069E787003D3D7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209DAE642069E787003D3D7E /* RainbowTabsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		209DAE562069E787003D3D7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 209DAE3F2069E787003D3D7E /* RainbowTabs */;
+			targetProxy = 209DAE552069E787003D3D7E /* PBXContainerItemProxy */;
+		};
+		209DAE612069E787003D3D7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 209DAE3F2069E787003D3D7E /* RainbowTabs */;
+			targetProxy = 209DAE602069E787003D3D7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		209DAE472069E787003D3D7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				209DAE482069E787003D3D7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		209DAE4C2069E787003D3D7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				209DAE4D2069E787003D3D7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		209DAE662069E787003D3D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		209DAE672069E787003D3D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		209DAE692069E787003D3D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EEQ6755M6;
+				INFOPLIST_FILE = RainbowTabs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mikk.RainbowTabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		209DAE6A2069E787003D3D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EEQ6755M6;
+				INFOPLIST_FILE = RainbowTabs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mikk.RainbowTabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		209DAE6C2069E787003D3D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EEQ6755M6;
+				INFOPLIST_FILE = RainbowTabsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mikk.RainbowTabsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainbowTabs.app/RainbowTabs";
+			};
+			name = Debug;
+		};
+		209DAE6D2069E787003D3D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EEQ6755M6;
+				INFOPLIST_FILE = RainbowTabsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mikk.RainbowTabsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainbowTabs.app/RainbowTabs";
+			};
+			name = Release;
+		};
+		209DAE6F2069E787003D3D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EEQ6755M6;
+				INFOPLIST_FILE = RainbowTabsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mikk.RainbowTabsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RainbowTabs;
+			};
+			name = Debug;
+		};
+		209DAE702069E787003D3D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EEQ6755M6;
+				INFOPLIST_FILE = RainbowTabsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mikk.RainbowTabsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RainbowTabs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		209DAE3B2069E787003D3D7E /* Build configuration list for PBXProject "RainbowTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209DAE662069E787003D3D7E /* Debug */,
+				209DAE672069E787003D3D7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		209DAE682069E787003D3D7E /* Build configuration list for PBXNativeTarget "RainbowTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209DAE692069E787003D3D7E /* Debug */,
+				209DAE6A2069E787003D3D7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		209DAE6B2069E787003D3D7E /* Build configuration list for PBXNativeTarget "RainbowTabsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209DAE6C2069E787003D3D7E /* Debug */,
+				209DAE6D2069E787003D3D7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		209DAE6E2069E787003D3D7E /* Build configuration list for PBXNativeTarget "RainbowTabsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209DAE6F2069E787003D3D7E /* Debug */,
+				209DAE702069E787003D3D7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 209DAE382069E787003D3D7E /* Project object */;
+}
