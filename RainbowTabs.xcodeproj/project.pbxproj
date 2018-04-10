@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		209DAE442069E787003D3D7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209DAE432069E787003D3D7E /* AppDelegate.swift */; };
-		209DAE462069E787003D3D7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209DAE452069E787003D3D7E /* ViewController.swift */; };
+		209DAE462069E787003D3D7E /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209DAE452069E787003D3D7E /* RedViewController.swift */; };
 		209DAE492069E787003D3D7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209DAE472069E787003D3D7E /* Main.storyboard */; };
 		209DAE4B2069E787003D3D7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209DAE4A2069E787003D3D7E /* Assets.xcassets */; };
 		209DAE4E2069E787003D3D7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209DAE4C2069E787003D3D7E /* LaunchScreen.storyboard */; };
 		209DAE592069E787003D3D7E /* RainbowTabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209DAE582069E787003D3D7E /* RainbowTabsTests.swift */; };
 		209DAE642069E787003D3D7E /* RainbowTabsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209DAE632069E787003D3D7E /* RainbowTabsUITests.swift */; };
+		209DAE722069EFEB003D3D7E /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209DAE712069EFEB003D3D7E /* OrangeViewController.swift */; };
+		209DAE742069EFFB003D3D7E /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209DAE732069EFFB003D3D7E /* YellowViewController.swift */; };
+		209DAE762069F007003D3D7E /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209DAE752069F007003D3D7E /* GreenViewController.swift */; };
+		209DAE782069F014003D3D7E /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209DAE772069F014003D3D7E /* BlueViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		209DAE402069E787003D3D7E /* RainbowTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		209DAE432069E787003D3D7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		209DAE452069E787003D3D7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		209DAE452069E787003D3D7E /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 		209DAE482069E787003D3D7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		209DAE4A2069E787003D3D7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		209DAE4D2069E787003D3D7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,10 @@
 		209DAE5F2069E787003D3D7E /* RainbowTabsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainbowTabsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		209DAE632069E787003D3D7E /* RainbowTabsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowTabsUITests.swift; sourceTree = "<group>"; };
 		209DAE652069E787003D3D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		209DAE712069EFEB003D3D7E /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
+		209DAE732069EFFB003D3D7E /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		209DAE752069F007003D3D7E /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		209DAE772069F014003D3D7E /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				209DAE432069E787003D3D7E /* AppDelegate.swift */,
-				209DAE452069E787003D3D7E /* ViewController.swift */,
+				209DAE452069E787003D3D7E /* RedViewController.swift */,
+				209DAE712069EFEB003D3D7E /* OrangeViewController.swift */,
+				209DAE732069EFFB003D3D7E /* YellowViewController.swift */,
+				209DAE752069F007003D3D7E /* GreenViewController.swift */,
+				209DAE772069F014003D3D7E /* BlueViewController.swift */,
 				209DAE472069E787003D3D7E /* Main.storyboard */,
 				209DAE4A2069E787003D3D7E /* Assets.xcassets */,
 				209DAE4C2069E787003D3D7E /* LaunchScreen.storyboard */,
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				209DAE462069E787003D3D7E /* ViewController.swift in Sources */,
+				209DAE742069EFFB003D3D7E /* YellowViewController.swift in Sources */,
+				209DAE462069E787003D3D7E /* RedViewController.swift in Sources */,
 				209DAE442069E787003D3D7E /* AppDelegate.swift in Sources */,
+				209DAE722069EFEB003D3D7E /* OrangeViewController.swift in Sources */,
+				209DAE782069F014003D3D7E /* BlueViewController.swift in Sources */,
+				209DAE762069F007003D3D7E /* GreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +445,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4EEQ6755M6;
 				INFOPLIST_FILE = RainbowTabs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mikk.RainbowTabs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +461,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4EEQ6755M6;
 				INFOPLIST_FILE = RainbowTabs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mikk.RainbowTabs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
